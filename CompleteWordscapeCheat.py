@@ -1,7 +1,7 @@
 from tkinter import *
 import re
 
-dictionary = open('/storage/emulated/0/Documents/Python_Scripts/words_alpha.txt', 'r');
+dictionary = open('/../words_alpha.txt', 'r');
 def txt():
 	output.delete(0.0, END)
 	text = txtbox.get()
